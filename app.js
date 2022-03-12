@@ -1,13 +1,16 @@
-//Commonjs is a module formatting system. It is a standard for structuring and organizing JavaScript code. CJS assists in the server-side development of apps and it’s format has heavily influenced NodeJS’s module management.
+const os = require('os');
 
-// Modules in Node. js is a simple or complex functionality organized in single or multiple JavaScript files which can be reused throughout the Node. js application.
+// info about current user
+const user = os.userInfo()
+console.log(user)
 
-const {john, peter} = require('./4-names');
-const sayHi = require('./5-utils');
-const data = require('./6-alternative-flavor');
-require("./7-mind-grenade");
+// method returns system uptime in seconds. 
+console.log(`The system Uptime is ${os.uptime()} seconds.`)
 
-// console.log(data)
-// sayHi("Susan");
-// sayHi(john);
-// sayHi(peter);
+const currentOS = {
+    name: os.type(), 
+    release: os.release(), 
+    freeMem: os.freemem()
+}
+
+console.log(currentOS);

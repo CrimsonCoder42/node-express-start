@@ -1,0 +1,22 @@
+{
+  "name": "ne_start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-into.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrimsonCoder42/node-express-start.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrimsonCoder42/node-express-start/issues"
+  },
+  "homepage": "https://github.com/CrimsonCoder42/node-express-start#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
